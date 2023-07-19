@@ -1,4 +1,4 @@
-from recope import Recope
+from instcr import Recope
 
 recope = Recope()
 
