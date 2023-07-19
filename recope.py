@@ -104,9 +104,3 @@ class Recope():
 
         sorted_json = json.dumps(self.table_estaciones, indent=2, sort_keys=True)
         print(sorted_json)
-
-recope = Recope()
-
-recope.print_data()
-
-print(f"\nPrecio del diesel: {recope.table_estaciones['diesel_50']['precio_litro_total']}")
