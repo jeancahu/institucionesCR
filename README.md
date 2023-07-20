@@ -1,4 +1,11 @@
-# Recope Scraper
+# InstitucionesCR Scraper
+
+Scraper en Python para recuperar algunos datos importantes publicados por las instituciones. Instituciones soportadas:
+
+    - BCCR, Banco Central de Costa Rica (precio del dólar)
+    - RECOPE (Precios de combustibles en estaciones y terminales)
+
+Los valores actualizados diariamente son de utilidad en procesos automáticos, lamentablemente muchas veces no es de interés de las instituciones el habilitar APIs para consultar dichos valores fácilmente por parte de programas, por esta razón he creado este pequeño proyecto para tomar estos datos desde las interfaces previamente creadas para personas.
 
 ## Install
 
@@ -26,6 +33,8 @@ recope.table_estaciones['diesel_50']['precio_litro_total']
 
 ## Precio del diesel en terminales
 recope.table_terminales['diesel_50']['precio_litro_total']
+
+# recope.table_estaciones.keys() Muestra todos los combustibles disponibles en estaciones
 ```
 
 ### Tipo de cambio desde el Banco Central de Costa Rica
