@@ -1,11 +1,16 @@
 # InstitucionesCR Scraper
 
-Scraper en Python para recuperar algunos datos importantes publicados por las instituciones. Instituciones soportadas:
+Scraper en Python para recuperar algunos datos importantes publicados por las instituciones.
+Instituciones soportadas:
 
-    - BCCR, Banco Central de Costa Rica (precio del dólar)
-    - RECOPE (Precios de combustibles en estaciones y terminales)
+- BCCR, Banco Central de Costa Rica (precio del dólar)
+- RECOPE (Precios de combustibles en estaciones y terminales)
 
-Los valores actualizados diariamente son de utilidad en procesos automáticos, lamentablemente muchas veces no es de interés de las instituciones el habilitar APIs para consultar dichos valores fácilmente por parte de programas, por esta razón he creado este pequeño proyecto para tomar estos datos desde las interfaces previamente creadas para personas.
+Los valores actualizados diariamente son de utilidad en procesos automáticos,
+lamentablemente muchas veces no es de interés de las instituciones el habilitar
+APIs para consultar dichos valores fácilmente por parte de programas, por esta
+razón he creado este pequeño proyecto para tomar estos datos desde las interfaces
+previamente creadas para personas.
 
 ## Install
 
