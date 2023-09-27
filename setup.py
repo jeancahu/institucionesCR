@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# $ pip install twine setuptools wheel
+# $ pip install twine setuptools wheel build
 
 import io
 from os import system as bash, path
@@ -94,7 +94,7 @@ class BuildCommand(Command):
             pass
 
         self.status('Building Source and Wheel (universal) distribution…')
-        bash('setup.py sdist bdist_wheel --universal'.format(sys.executable))
+        bash('{0} setup.py sdist bdist_wheel --universal'.format(sys.executable))
 
         sys.exit()
 

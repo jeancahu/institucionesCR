@@ -14,7 +14,7 @@ previamente creadas para personas.
 
 ## Install
 
-    pip install -r requierements.txt
+    pip install instcr
 
 ## Usage
 
