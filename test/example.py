@@ -1,4 +1,5 @@
-from instcr import Recope, Bccr
+from instcr.recope import Recope
+from instcr.bccr import Bccr
 
 recope = Recope()
 
