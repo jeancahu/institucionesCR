@@ -21,7 +21,7 @@ previamente creadas para personas.
 ### Obtener información de precios de combustible desde RECOPE
 
 ```python
-from instcr import Recope
+from instcr.recope import Recope
 
 recope = Recope()
 
@@ -45,7 +45,7 @@ recope.table_terminales['diesel_50']['precio_litro_total']
 ### Tipo de cambio desde el Banco Central de Costa Rica
 
 ```python
-from instcr import Bccr
+from instcr.bccr import Bccr
 
 bccr = Bccr()
 

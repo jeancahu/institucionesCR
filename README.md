@@ -22,7 +22,7 @@ these data from the interfaces previously designed for humans.
 ### Get fuel price information from RECOPE
 
 ```python
-from instcr import Recope
+from instcr.recope import Recope
 
 recope = Recope()
 
@@ -46,7 +46,7 @@ recope.table_terminales['diesel_50']['precio_litro_total']
 ### Exchange rate from the Central Bank of Costa Rica
 
 ```python
-from instcr import Bccr
+from instcr.bccr import Bccr
 
 bccr = Bccr()
 
